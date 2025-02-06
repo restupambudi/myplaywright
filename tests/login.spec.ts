@@ -1,5 +1,6 @@
 import { test, expect } from '@playwright/test';
-const config = require('../config'); // Import the config file
+// const config = require('../config'); // Import the config file
+import { config } from '../utils/config'; // Import credentials from config.ts
 
 // Run this before each test
 test.beforeEach(async ({ page }) => {
