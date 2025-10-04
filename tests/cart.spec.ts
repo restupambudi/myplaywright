@@ -3,7 +3,6 @@ import { login } from '../utils/auth';
 
 // Run this before each test
 test.beforeEach(async ({ page }) => {
-    // await page.goto('https://www.saucedemo.com/'); // Navigate to the login page
     await login(page);
 });
 
